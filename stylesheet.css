@@ -68,10 +68,10 @@ h1, h2 {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 100;
 	font-size: 20px;
-	color: #000000;
+	color: #fff;
 	padding-left: 20px;
 	padding-right: 20px;
-	border: 2px solid black;
+	border: 2px solid blue;
 }
 
 #hand img {
