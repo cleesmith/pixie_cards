@@ -3,28 +3,22 @@
 <head>
  	<meta charset="UTF-8">
   	<link rel="stylesheet" href="stylesheet.css" />
-  	<!--JQuery script tag has to come before the JS otherwise it won't run.-->
   	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   	<script src="deal.js"></script>
   	<script src="deck.js"></script>
-  	<!--meta shit-->
-  	<title>Tarot Project By Patricia Realini</title>
-	<!--favicon in href... after "image" type in either "/ico" or "/png"-->
-	<link rel="icon" type="image/png" href="images/favicon.png">
-	<meta name="description" content="Tarot card readings, courtesy of JavaScript.">
+  	<title>Pixie's cards By Chris Smith</title>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
+	<meta name="description" content="RWS tarot">
 	<meta name="keywords" content="tarot, javascript">
-	<meta name="author" content="Patricia Realini">
+	<meta name="author" content="Chris Smith">
 
 </head>
 <body>
 	<div class="backdrop">
 		<div class="frame1">
-			<h1>ARCANA</h1>
-			<h2>Click on the deck</h2>
-
 			<div class="buttons">
 				<img src="images/deckback.jpg" alt="deck of cards" id="deal">
-				<br>
+        <em>click to pull cards (up to 7)</em>
 				<input type="button" value="SHUFFLE" id="shuffle" />
 			</div>
 			<div id="hand">
@@ -33,6 +27,5 @@
 			</div>
 		</div>
 	</div>
-	
 </body>
 </html>
